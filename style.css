@@ -35,7 +35,9 @@
     width: .5rem;
     background-color: rgb(223, 221, 196);
 }
-
+.selected{
+    background-color: rgb(223, 221, 196)
+}
 /* @media{
     
 } */

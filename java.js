@@ -8,3 +8,13 @@ const employees = [
     { id: 8, name: 'shep Jr.'},
     { id: 99, name: 'lucy'}
   ];
+
+const name=document.querySelectorAll('.name');
+const nameContainer=document.getElementById('name-container');
+
+nameContainer.addEventListener('click',ev=>{
+    if(ev.target.className==='name'){
+        ev.target.classList.toggle('selected')
+    }
+}
+)
